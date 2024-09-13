@@ -28,7 +28,7 @@ const Home = ({ isDark, setIsDark }) => {
       </button>
       <div className="flex flex-col sm:flex-row-reverse  justify-evenly  items-center ">
         <motion.img
-          className="w-96 h-96 sm:w-[36rem] sm:h-[36rem] object-cover"
+          className="w-80 h-80 sm:w-[36rem] sm:h-[36rem] object-cover"
           src={file1}
           alt="my photo"
           {...slidUp}
